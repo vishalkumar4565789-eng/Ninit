@@ -212,5 +212,8 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1978337676210276&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
+<!-- Delayed PageView Tracking Script -->
+<script>setTimeout(function(){ if(typeof fbq === 'function') { fbq('track', 'PageView'); } }, 4000);</script>
 </body>
 </html>
